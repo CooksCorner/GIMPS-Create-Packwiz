@@ -2181,7 +2181,3 @@ metafile = true
 file = "mods/yungs-cave-biomes.pw.toml"
 hash = "895288a3b51192f27cbf3e7e7ebfefd0d31e5660157864a4da40828d5c1dac05"
 metafile = true
-
-[[files]]
-file = "packwiz-test.txt"
-hash = "cdaa8c86d31ac257cac2f2ef2b3117f23bfcf76717966922f80856669297bd3a"
