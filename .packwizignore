@@ -1,0 +1,33 @@
+# Packwiz program and Git files
+packwiz.exe
+.packwizignore
+.git/
+.gitignore
+.nojekyll
+
+# Generated files
+.mixin.out/
+debug/
+logs/
+crash-reports/
+*.bak
+
+# Player-owned files
+saves/
+screenshots/
+schematics/
+waypoints/
+journeymap/
+servers.dat
+servers.dat_old
+options.txt
+patchouli_data.json
+
+# Temporary or personal config data
+config/jei/world/
+config/spark/tmp/
+config/spark/tmp-client/
+config/voicechat/category-volumes.properties
+config/voicechat/player-volumes.properties
+config/voicechat/username-cache.json
+config/fzzy_config/keybinds.toml

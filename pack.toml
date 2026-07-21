@@ -1,0 +1,13 @@
+name = "G.I.M.P.S Create"
+author = "Cooks Corner"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "9fd8ec764c50c2093257fbf51887b3710fb423749ea2abc9ca67540337520b0e"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.219"

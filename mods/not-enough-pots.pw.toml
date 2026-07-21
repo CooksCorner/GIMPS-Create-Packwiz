@@ -1,0 +1,13 @@
+name = "Not Enough Pots"
+filename = "notenoughpots-1.21-neoforge-1.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3379e8d6d49b8a93e9c30ee0da3f5b71af3bca7b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8070600
+project-id = 1120989

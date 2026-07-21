@@ -1,0 +1,13 @@
+name = "Potted Delight"
+filename = "potteddelight-1.21.1-neoforge-1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "476d5c54aa1133961ba5333506aa4a40c88ccdcc"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8073412
+project-id = 1222074

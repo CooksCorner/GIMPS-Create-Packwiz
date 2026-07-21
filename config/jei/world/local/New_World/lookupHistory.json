@@ -1,0 +1,6 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"create:raw_zinc_block"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:zinc_ore"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:deepslate_zinc_ore"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]
