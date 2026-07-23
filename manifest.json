@@ -1,0 +1,11 @@
+{
+  "id": "193c27e9-a841-401e-a4b8-4e7b25898c95",
+  "authors": [
+    "CooksCorner"
+  ],
+  "origin": "https://github.com/cookscorner/GIMPS-Create-Packwiz.git",
+  "url": "https://github.com/cookscorner/GIMPS-Create-Packwiz",
+  "imagefile": "server-icon.png",
+  "prefix": "GIMPS",
+  "repotype": "AppTemplates"
+}

@@ -1,0 +1,79 @@
+[
+  {
+    "DisplayName": "Minimum Memory",
+    "Category": "G.I.M.P.S Create:stadia_controller",
+    "Subcategory": "Java:code:1",
+    "Description": "Initial Java heap in MB",
+    "Keywords": "java,memory,ram,xms",
+    "FieldName": "MinimumMemory",
+    "InputType": "number",
+    "MinValue": "1024",
+    "ParamFieldName": "MinimumMemory",
+    "IncludeInCommandLine": false,
+    "DefaultValue": "2048",
+    "Placeholder": "2048",
+    "Suffix": "MB",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Maximum Memory",
+    "Category": "G.I.M.P.S Create:stadia_controller",
+    "Subcategory": "Java:code:1",
+    "Description": "Maximum Java heap in MB",
+    "Keywords": "java,memory,ram,xmx",
+    "FieldName": "MaximumMemory",
+    "InputType": "number",
+    "MinValue": "4096",
+    "ParamFieldName": "MaximumMemory",
+    "IncludeInCommandLine": false,
+    "DefaultValue": "16384",
+    "Placeholder": "16384",
+    "Suffix": "MB",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Additional Java Options",
+    "Category": "G.I.M.P.S Create:stadia_controller",
+    "Subcategory": "Java:code:1",
+    "Description": "Optional extra JVM flags. Packwiz does not go here.",
+    "Keywords": "java,jvm,options,arguments",
+    "FieldName": "AdditionalJavaArgs",
+    "InputType": "text",
+    "ParamFieldName": "AdditionalJavaArgs",
+    "IncludeInCommandLine": false,
+    "DefaultValue": "",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Player Limit",
+    "Category": "G.I.M.P.S Create:stadia_controller",
+    "Subcategory": "Server:dns:2",
+    "Description": "Maximum simultaneous players",
+    "Keywords": "players,limit,max",
+    "FieldName": "$MaxUsers",
+    "InputType": "number",
+    "MinValue": "1",
+    "ParamFieldName": "max-players",
+    "IncludeInCommandLine": false,
+    "DefaultValue": "20",
+    "Placeholder": "20",
+    "Suffix": "players",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Accept Minecraft EULA",
+    "Category": "G.I.M.P.S Create:stadia_controller",
+    "Subcategory": "Server:dns:2",
+    "Description": "Enable only after reading and accepting https://aka.ms/MinecraftEULA",
+    "Keywords": "minecraft,eula,accept",
+    "FieldName": "AcceptEula",
+    "InputType": "checkbox",
+    "ParamFieldName": "eula",
+    "IncludeInCommandLine": false,
+    "DefaultValue": "false",
+    "EnumValues": {
+      "False": "false",
+      "True": "true"
+    }
+  }
+]

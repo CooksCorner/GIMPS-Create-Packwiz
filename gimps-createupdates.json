@@ -1,0 +1,56 @@
+[
+  {
+    "UpdateStageName": "Download Java 21",
+    "UpdateSourcePlatform": "Linux",
+    "UpdateSourceArch": "x86_64",
+    "UpdateSource": "Executable",
+    "UpdateSourceData": "/bin/bash",
+    "UpdateSourceArgs": "-c \"mkdir -p gimps-create/java && wget -qO gimps-create/java.tar.gz https://api.adoptium.net/v3/binary/latest/21/ga/linux/x64/jre/hotspot/normal/eclipse && rm -rf gimps-create/java/* && tar -xzf gimps-create/java.tar.gz -C gimps-create/java --strip-components=1 && rm -f gimps-create/java.tar.gz && chmod +x gimps-create/java/bin/java\"",
+    "SkipOnFailure": false
+  },
+  {
+    "UpdateStageName": "Download Java 21",
+    "UpdateSourcePlatform": "Linux",
+    "UpdateSourceArch": "aarch64",
+    "UpdateSource": "Executable",
+    "UpdateSourceData": "/bin/bash",
+    "UpdateSourceArgs": "-c \"mkdir -p gimps-create/java && wget -qO gimps-create/java.tar.gz https://api.adoptium.net/v3/binary/latest/21/ga/linux/aarch64/jre/hotspot/normal/eclipse && rm -rf gimps-create/java/* && tar -xzf gimps-create/java.tar.gz -C gimps-create/java --strip-components=1 && rm -f gimps-create/java.tar.gz && chmod +x gimps-create/java/bin/java\"",
+    "SkipOnFailure": false
+  },
+  {
+    "UpdateStageName": "Download Packwiz Bootstrap",
+    "UpdateSourcePlatform": "Linux",
+    "UpdateSource": "FetchURL",
+    "UpdateSourceData": "https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar",
+    "UpdateSourceArgs": "packwiz-installer-bootstrap.jar",
+    "UpdateSourceTarget": "{{$FullBaseDir}}",
+    "OverwriteExistingFiles": true,
+    "SkipOnFailure": false
+  },
+  {
+    "UpdateStageName": "Sync G.I.M.P.S Create Server Files",
+    "UpdateSourcePlatform": "Linux",
+    "UpdateSource": "Executable",
+    "UpdateSourceData": "/bin/bash",
+    "UpdateSourceArgs": "-c \"cd gimps-create && java/bin/java -jar packwiz-installer-bootstrap.jar -g -s server https://cookscorner.github.io/GIMPS-Create-Packwiz/pack.toml\"",
+    "SkipOnFailure": false
+  },
+  {
+    "UpdateStageName": "Download NeoForge Installer",
+    "UpdateSourcePlatform": "Linux",
+    "UpdateSource": "FetchURL",
+    "UpdateSourceData": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.219/neoforge-21.1.219-installer.jar",
+    "UpdateSourceArgs": "neoforge-21.1.219-installer.jar",
+    "UpdateSourceTarget": "{{$FullBaseDir}}",
+    "OverwriteExistingFiles": true,
+    "SkipOnFailure": false
+  },
+  {
+    "UpdateStageName": "Install NeoForge 21.1.219",
+    "UpdateSourcePlatform": "Linux",
+    "UpdateSource": "Executable",
+    "UpdateSourceData": "/bin/bash",
+    "UpdateSourceArgs": "-c \"cd gimps-create && if [[ ! -f libraries/net/neoforged/neoforge/21.1.219/unix_args.txt ]]; then java/bin/java -jar neoforge-21.1.219-installer.jar --installServer; fi\"",
+    "SkipOnFailure": false
+  }
+]

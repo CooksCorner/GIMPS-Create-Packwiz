@@ -1,0 +1,10 @@
+[
+  {
+    "UpdateStageName": "Packwiz Update Before Start",
+    "UpdateSourcePlatform": "Linux",
+    "UpdateSource": "Executable",
+    "UpdateSourceData": "/bin/bash",
+    "UpdateSourceArgs": "-c \"cd gimps-create && java/bin/java -jar packwiz-installer-bootstrap.jar -g -s server https://cookscorner.github.io/GIMPS-Create-Packwiz/pack.toml\"",
+    "SkipOnFailure": false
+  }
+]
