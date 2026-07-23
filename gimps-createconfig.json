@@ -52,10 +52,10 @@
     "EnumValues": { "21": "Java 21 (managed by template)" }
   },
   {
-    "DisplayName": "Memory Limit (MB)",
+    "DisplayName": "Java Heap Limit (MB)",
     "Category": "GIMPS Create:stadia_controller",
     "Subcategory": "Java and Memory:code:2",
-    "Description": "Maximum Java heap, equivalent to AMP's normal Memory Limit",
+    "Description": "Maximum Java heap (-Xmx). AMP's dashboard total shows host/container memory, not this Java value.",
     "Keywords": "java,memory,ram,xmx",
     "FieldName": "MaximumMemory",
     "InputType": "number",
@@ -68,7 +68,7 @@
     "EnumValues": {}
   },
   {
-    "DisplayName": "Memory pre-allocation (MB)",
+    "DisplayName": "Java Heap pre-allocation (MB)",
     "Category": "GIMPS Create:stadia_controller",
     "Subcategory": "Java and Memory:code:2",
     "Description": "Initial Java heap, equivalent to AMP's normal Memory pre-allocation",

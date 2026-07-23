@@ -40,6 +40,22 @@ startup, network, performance, world generation, gameplay/difficulty and
 security. Minecraft 1.21.1, NeoForge 21.1.219 and Java 21 remain fixed because
 they are part of the modpack's compatibility requirements.
 
+### AMP memory dashboard
+
+**Java Heap Limit** controls NeoForge's `-Xmx` value. AMP's **Memory Usage**
+dashboard is a different measurement: its total is the host's installed RAM,
+or the container limit when the instance runs in a limited container.
+
+For a 16384 MB Java heap, stop the instance, return to the ADS instance list,
+click the instance's pencil/edit icon, and set its container memory policy to
+**Restrict** with a limit of at least **18432 MB**. This leaves approximately
+2 GB for Java native memory and AMP. A 20 GB container limit gives more
+headroom. Do not set the container limit lower than or equal to `-Xmx`.
+
+If the instance is not containerised, the dashboard will continue to show the
+host total. The Java heap is still limited by `-Xmx16384M`; verify it under
+**Support and Updates → Last Arguments** after starting the server.
+
 On every Start and Restart, AMP's pre-start stage runs:
 
 ```text
