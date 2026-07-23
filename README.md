@@ -24,6 +24,22 @@ starts. Do not put the Packwiz command in **Additional Java options** or
    **Accept Minecraft EULA** only if you accept it.
 9. Start the server.
 
+### Refresh an existing G.I.M.P.S Create Generic instance
+
+When this template is updated:
+
+1. Open **Configuration → Instance Deployment** on the ADS/controller.
+2. Click **Fetch Latest** for `cookscorner/GIMPS-Create-Packwiz:main`.
+3. Return to the instance list.
+4. Stop the G.I.M.P.S Create instance.
+5. Right-click its tile and choose **Refresh Configuration**.
+6. Manage the instance and reopen **Configuration → G.I.M.P.S Create**.
+
+The template includes the normal Minecraft controls for Java/memory, server
+startup, network, performance, world generation, gameplay/difficulty and
+security. Minecraft 1.21.1, NeoForge 21.1.219 and Java 21 remain fixed because
+they are part of the modpack's compatibility requirements.
+
 On every Start and Restart, AMP's pre-start stage runs:
 
 ```text
