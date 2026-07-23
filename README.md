@@ -42,19 +42,19 @@ they are part of the modpack's compatibility requirements.
 
 ### AMP memory dashboard
 
-**Java Heap Limit** controls NeoForge's `-Xmx` value. AMP's **Memory Usage**
-dashboard is a different measurement: its total is the host's installed RAM,
-or the container limit when the instance runs in a limited container.
+**Java Heap Limit** controls NeoForge's `-Xmx` value, just like **Memory
+Limit** in AMP's normal Minecraft module. For example, a value of `16384`
+starts NeoForge with `-Xmx16384M`.
 
-For a 16384 MB Java heap, stop the instance, return to the ADS instance list,
-click the instance's pencil/edit icon, and set its container memory policy to
-**Restrict** with a limit of at least **18432 MB**. This leaves approximately
-2 GB for Java native memory and AMP. A 20 GB container limit gives more
-headroom. Do not set the container limit lower than or equal to `-Xmx`.
+AMP's normal Minecraft module also uses its heap setting as the maximum shown
+by the **Memory Usage** dashboard. The Generic module does not expose that
+connection to templates, so this instance's dashboard shows the host's
+available memory instead. This display difference does not remove or change
+the Java heap limit, and no container limit is required.
 
-If the instance is not containerised, the dashboard will continue to show the
-host total. The Java heap is still limited by `-Xmx16384M`; verify it under
-**Support and Updates → Last Arguments** after starting the server.
+After starting the server, verify the applied value under **Support and
+Updates → Last Arguments**. It should contain `-Xmx16384M` when the heap is set
+to 16384 MB.
 
 On every Start and Restart, AMP's pre-start stage runs:
 
