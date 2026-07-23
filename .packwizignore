@@ -5,13 +5,6 @@ packwiz.exe
 .gitignore
 .nojekyll
 README.md
-manifest.json
-gimps-create.kvp
-gimps-createconfig.json
-gimps-createmetaconfig.json
-gimps-createports.json
-gimps-createupdates.json
-gimps-createstart.json
 
 # Generated files
 .mixin.out/
