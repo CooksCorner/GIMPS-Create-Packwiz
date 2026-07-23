@@ -1,6 +1,6 @@
 name = "Neat"
 filename = "Neat-1.21-47-NEOFORGE.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
