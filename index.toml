@@ -413,18 +413,6 @@ file = "config/easy_villagers-server.toml"
 hash = "0b105ac9c24eaf2b5493d09837158b8ac3d72c35b23f5fcb9d5fdb6d67390b9e"
 
 [[files]]
-file = "config/embeddium-fingerprint.json"
-hash = "fcd4ec5e09b1af4a94e0c0ae7551c1299ab246e278339f888896cd0c0774a791"
-
-[[files]]
-file = "config/embeddium-mixins.properties"
-hash = "708750dc530ed52462185c7b1421291db8b292a350e164daaad437ba6f4fe4ef"
-
-[[files]]
-file = "config/embeddium-options.json"
-hash = "3ae541cb5000075a8487bdcaf14634c3215abbd73ffc3715fd5efd2112c9a23c"
-
-[[files]]
 file = "config/enderchests-client.toml"
 hash = "b9a44512bc810b4c8eacabe00057b6b3dde0fc111b54edecdfb46854e4f2f866"
 
@@ -434,7 +422,7 @@ hash = "93c0a6adde777fe870002ffe4a951fb6db37d41722ae1ecccb000526dcc9fc40"
 
 [[files]]
 file = "config/entityculling.json"
-hash = "f78e4f1f3877f604688a706f950da47ba8d31aeb4ee5708ed1ad57dba6d42937"
+hash = "7a28ca2c1316c7cbe0c1d26ed34b75911061f4b93204ff4d8392904c75d678db"
 
 [[files]]
 file = "config/explorerscompass-client.toml"
@@ -1325,6 +1313,11 @@ metafile = true
 [[files]]
 file = "mods/create-aeronautics.pw.toml"
 hash = "6ea6284b569b13f45bfe44f9790389de4a2f7cda92c8b3bb94511b600d64c486"
+metafile = true
+
+[[files]]
+file = "mods/create-bits-n-bobs.pw.toml"
+hash = "0f67083a39e4b9aa80b1830257086f16734091f9ecb24e64dd208c19be2c4923"
 metafile = true
 
 [[files]]
