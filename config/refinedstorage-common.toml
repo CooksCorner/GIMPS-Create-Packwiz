@@ -9,7 +9,7 @@ searchBoxAutoSelected = false
 autocraftingNotification = true
 #Allowed Values: LIST, TREE
 autocraftingPreviewStyle = "LIST"
-requireEnergy = true
+requireEnergy = false
 tenthAnniversaryCape = false
 
 [cable]

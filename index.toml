@@ -373,6 +373,10 @@ file = "config/darkmodeeverywhereshaders.json"
 hash = "d9734d334ae08535b30a55bd2245dbf7d87e397a03707cd9cfab7c1b6a55e544"
 
 [[files]]
+file = "config/defaultoptions/options.txt"
+hash = "b3e5e8a66110354b3ede07296cbb9fa4b8f580a21c1ea3e1553ee04c442f4974"
+
+[[files]]
 file = "config/disenchantanvil-common.toml"
 hash = "a550ae01e7d671676bf58daf84d51571c2303871641f5f110aef7b2bfb5e3cf0"
 
@@ -785,10 +789,6 @@ file = "config/ponder-client.toml"
 hash = "55affffe67e84dfe11e590769e235aee999b77f9484a3adf7ee8247a9f3d35ba"
 
 [[files]]
-file = "config/powah.json5"
-hash = "6797b25c9b47b0afab8271a9f7918f2bbbbd93614f4ef59ae3452bdb3519e7dd"
-
-[[files]]
 file = "config/productivebees-client.toml"
 hash = "d0360fa62f021a965a0c15913a2ba1d82e16aae1a6c576322628ca93074c494b"
 
@@ -818,7 +818,7 @@ hash = "01d1370950239d1a78d2b166652e0ad7dce25d9e89e46565edc3021bec71e206"
 
 [[files]]
 file = "config/refinedstorage-common.toml"
-hash = "be346e06abe6f1236669c004b8f8cb89a679824fbeacf8a15d94849b15e66a5c"
+hash = "6c9892b2fbe2a1d58470cf82f8ab563b2c0db6d91812e6a994fb8710144345da"
 
 [[files]]
 file = "config/refurbished_furniture.client.toml"
@@ -1426,6 +1426,11 @@ hash = "8330c5c37681caaf49f537ef3a40c0155af4e311f6bdb00e57abf39471fb8e65"
 metafile = true
 
 [[files]]
+file = "mods/default-options.pw.toml"
+hash = "e2048bb7afd4923586f1db52ed21fd297d193d06daf3dea2807f228d7fed418a"
+metafile = true
+
+[[files]]
 file = "mods/diagonal-fences.pw.toml"
 hash = "db153992e71c2c1ca7643ad93d11f1276cada2843879cd01909abef2f2ed9df9"
 metafile = true
@@ -1893,11 +1898,6 @@ metafile = true
 [[files]]
 file = "mods/potted-delight.pw.toml"
 hash = "5c67ecd85038a333e9e6374c92cd23118140105c445092a53ed1c8a53248d6e8"
-metafile = true
-
-[[files]]
-file = "mods/powah-rearchitected.pw.toml"
-hash = "a6f8726db6be3d6efc3a3561166db9d30d48dc2feef5e5d7e0ecbff86b3a2f82"
 metafile = true
 
 [[files]]

@@ -21,7 +21,7 @@ waypoints/
 journeymap/
 servers.dat
 servers.dat_old
-options.txt
+/options.txt
 patchouli_data.json
 
 # Temporary or personal config data
