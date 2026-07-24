@@ -1041,6 +1041,10 @@ file = "config/waystones-common.toml"
 hash = "770a81ab4e2cc8170f874ae1bc7cb56814f209a73ba5435d56047ae4d42946db"
 
 [[files]]
+file = "config/world-gen.json"
+hash = "9ce05482392194d741711acbd7bac39c4886238df739daeae5b748c518b3f746"
+
+[[files]]
 file = "config/yacl.json5"
 hash = "121b93764159be6fb7dab523b29a844e2bb78400ce8c48f52135a097e9b0006e"
 
