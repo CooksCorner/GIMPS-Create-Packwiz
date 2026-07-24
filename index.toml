@@ -862,7 +862,7 @@ hash = "88b4a38daaa06cf94ebef9f8e02a596eacea97f4b76ef966456da9adba4e75b5"
 
 [[files]]
 file = "config/shetiphiancore.toml"
-hash = "5ca32dc05d4abf088c05c0e48fd70d51065ec24770077599e74876ef268345e5"
+hash = "f831db771f11a6fd8a6489ac718c9a89947f6b2c2f183c03ce50284969371c05"
 
 [[files]]
 file = "config/simple_weather-client.toml"
