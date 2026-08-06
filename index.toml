@@ -937,6 +937,10 @@ file = "config/terrablender.toml"
 hash = "cff6a9a0d415b19b9852844c0ad5bb2b1cfdb9fce12e729e7228a6521fc95927"
 
 [[files]]
+file = "config/terralith.json"
+hash = "0818240f938ce3254b5c6114c6a9e6e4e092e3b439e4e507a6d6f009359bdeb5"
+
+[[files]]
 file = "config/titanium/titanium-tags.toml"
 hash = "0fdb903beac3111899fba270f156d65daf792b534a20915672e2d9b1aacdf06c"
 
@@ -2083,6 +2087,11 @@ metafile = true
 [[files]]
 file = "mods/terrablender-neoforge.pw.toml"
 hash = "d77e4dc337b6090358c1ef01b0f99a8357e5279443e0e23e511de1be865c01c9"
+metafile = true
+
+[[files]]
+file = "mods/terralith.pw.toml"
+hash = "81c5c05f9ed4c07b9f027ff6c421939bb04e476075091f135d34aaa05af1f950"
 metafile = true
 
 [[files]]
