@@ -1050,7 +1050,7 @@ hash = "770a81ab4e2cc8170f874ae1bc7cb56814f209a73ba5435d56047ae4d42946db"
 
 [[files]]
 file = "config/world-gen.json"
-hash = "9ce05482392194d741711acbd7bac39c4886238df739daeae5b748c518b3f746"
+hash = "a0e015064f9e7d29686c377ee19eddc4614c882c9c832ed82dc08e5d037ca1c4"
 
 [[files]]
 file = "config/yacl.json5"
