@@ -2,6 +2,7 @@
 packwiz.exe
 .packwizignore
 .git/
+.github/
 .gitignore
 .nojekyll
 README.md
