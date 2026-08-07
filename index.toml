@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".github/workflows/deploy-pages.yml"
+hash = "4fb6dc48dd4c0a4941c7053e3f9ae9ab9cce82819c4ad85f0668a7e99292c566"
+
+[[files]]
 file = "config/EnderStorage.cfg"
 hash = "ee18dee1a8206cc3853e156102d70038554a4d0e30937e1e8145ef49086d0670"
 
@@ -783,6 +787,10 @@ hash = "127580e6a7872bc97b55280e53f0a11bce8a655b8fe2ded66a88ecde8389bab1"
 [[files]]
 file = "config/ponder-client.toml"
 hash = "55affffe67e84dfe11e590769e235aee999b77f9484a3adf7ee8247a9f3d35ba"
+
+[[files]]
+file = "config/powah.json5"
+hash = "6797b25c9b47b0afab8271a9f7918f2bbbbd93614f4ef59ae3452bdb3519e7dd"
 
 [[files]]
 file = "config/productivebees-client.toml"
@@ -1907,6 +1915,11 @@ metafile = true
 [[files]]
 file = "mods/potted-delight.pw.toml"
 hash = "5c67ecd85038a333e9e6374c92cd23118140105c445092a53ed1c8a53248d6e8"
+metafile = true
+
+[[files]]
+file = "mods/powah-rearchitected.pw.toml"
+hash = "a6f8726db6be3d6efc3a3561166db9d30d48dc2feef5e5d7e0ecbff86b3a2f82"
 metafile = true
 
 [[files]]
