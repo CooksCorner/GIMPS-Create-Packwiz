@@ -1,0 +1,6 @@
+version = 3
+
+[chunkSystem]
+# Disabled conservatively because asynchronous chunk serialization can expose
+# compatibility issues in large modpacks. Other C2ME options remain at defaults.
+asyncSerialization = "false"

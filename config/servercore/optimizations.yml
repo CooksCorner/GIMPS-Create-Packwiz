@@ -1,0 +1,13 @@
+# Allows you to toggle specific optimizations that don't have full vanilla parity.
+# These settings only take effect after the integrated or dedicated server restarts.
+
+# Disabled because it changes which unloaded chunks some operations can access.
+reduce-sync-loads: false
+# Disabled because it trades exact ticking-chunk updates for a cached list.
+cache-ticking-chunks: false
+# Disabled to avoid command execution compatibility changes.
+optimize-command-blocks: false
+# Disabled to preserve exact biome-border mob spawning behavior.
+fast-biome-lookups: false
+# Disabled to preserve vanilla fluid tick behavior.
+cancel-duplicate-fluid-ticks: false
