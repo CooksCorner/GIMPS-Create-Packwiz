@@ -1197,7 +1197,7 @@ metafile = true
 
 [[files]]
 file = "mods/athena.pw.toml"
-hash = "38bddea8d550568799dd7f208c0bbe10280de3e456016a0d59aa20de112a2345"
+hash = "682fd4aef38fca5a2dee7cb858d6f64f81637b25f3f251e70a2b04b1a70aea5c"
 metafile = true
 
 [[files]]
@@ -1412,7 +1412,7 @@ metafile = true
 
 [[files]]
 file = "mods/create_oxidized.pw.toml"
-hash = "50a9e0cce66be2ab5f875133d7ce53d0fc6c35d4a5a4fc0e776f10fadeb61c68"
+hash = "7e9e3d04c85d0a94a449245bae9239658e0fdeaf53043145c70d54070a38b9b0"
 metafile = true
 
 [[files]]
@@ -1662,7 +1662,7 @@ metafile = true
 
 [[files]]
 file = "mods/im-fast.pw.toml"
-hash = "474d64dba26d80c32a84ccdefc66d06dbf18503c17fe48927040fdf9026c5860"
+hash = "8419731f64df87ec81aac48c87bb31a80f4d6e9bc7fbd4b2fc452b66173ac6ad"
 metafile = true
 
 [[files]]
@@ -1707,7 +1707,7 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "221244d69134b0270a848ae4bc2eb99b73ee997d0beb491d1397d894f60bc3ac"
+hash = "e739b7355ab3cfba2e729f8f0b51eafc3d9c3afb19ee30ac7b311631610c5e66"
 metafile = true
 
 [[files]]
@@ -1892,7 +1892,7 @@ metafile = true
 
 [[files]]
 file = "mods/nolijium.pw.toml"
-hash = "f448b2d9937031e57277bb9dee0425c9be9e3af552078d316d023f7af9a38b38"
+hash = "36f8189bb57be713280a80f2efdfbf31d57cb46c826778740489774553e93532"
 metafile = true
 
 [[files]]
@@ -1902,7 +1902,7 @@ metafile = true
 
 [[files]]
 file = "mods/notenoughrecipebook.pw.toml"
-hash = "9bc4e7441edda5d7c4bd0eecbec30dc3ebe99675d8e812938444685a366edc92"
+hash = "02c4f941c76c49cbaeb17e549dc0e37562ff5cbd6ca51fec9d8da3bb73538507"
 metafile = true
 
 [[files]]
@@ -2167,7 +2167,7 @@ metafile = true
 
 [[files]]
 file = "mods/trashslot.pw.toml"
-hash = "73f023021232d7d230b59ceaed24d506e3797c3c1c76bab32cd883eec9deb523"
+hash = "b1908d3251d722ec5c18f2483b8c56743d7cae91f644caa6d82e1b3b5b64f604"
 metafile = true
 
 [[files]]
@@ -2187,7 +2187,7 @@ metafile = true
 
 [[files]]
 file = "mods/yeetusexperimentus.pw.toml"
-hash = "7c6f2e38a6932f846738747fd6cff3af239748a84e89350f6c967c8ac72a65d6"
+hash = "76b07f47147fb18bb31d8719f9c7beb6622b55f59ae14411c7cf022b4d99d910"
 metafile = true
 
 [[files]]
